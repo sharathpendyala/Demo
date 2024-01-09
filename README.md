@@ -8,12 +8,12 @@
 4. Change the name of the origin to main
 5. push your changes after committing them.
 
-# git init                           --> Initializing empty repository
-# git remote add origin "Link"       --> Linking a remote origin
-# git remote -v                      --> To check the remote
-# git branch                         --> To check the branch
-# git branch -M main                 --> To rename the branch to "main"
-# git push -u origin main            --> Push changes to remote github repository
+---> git init                           --> Initializing empty repository
+---> git remote add origin "Link"       --> Linking a remote origin
+---> git remote -v                      --> To check the remote
+---> git branch                         --> To check the branch
+---> git branch -M main                 --> To rename the branch to "main"
+---> git push -u origin main            --> Push changes to remote github repository
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -26,9 +26,9 @@
 2. Now from the local files/folder push them into the repository.
 3. U need to follow the below commands to push them into the repo.
 
-# git add .               --> To push all the changes into github
-# git commit -m "message" --> To commit all the changes
-# git push origin main    --> To finally push all the committed changes into github from the local folder.
+---> git add .               --> To push all the changes into github
+---> git commit -m "message" --> To commit all the changes
+---> git push origin main    --> To finally push all the committed changes into github from the local folder.
  
 --------------------------------------------------------------------------------------------------------------
 
@@ -39,10 +39,10 @@
 3. Push your changes into the current branch.
 4. Merge your branch into the main branch.
 
-# git checkout -b "new_branch_name"
-# git branch
-# git push origin "new_branch_name"
-# git checkout main
-# git merge "new_branch_name"
+---> git checkout -b "new_branch_name"
+---> git branch
+---> git push origin "new_branch_name"
+---> git checkout main
+---> git merge "new_branch_name"
 
 ---------------------------------------------------------------------------------------------------------------
